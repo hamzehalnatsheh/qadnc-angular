@@ -1,0 +1,78 @@
+<div [ngClass]="{'offcanvas-menu': step}">
+    <div class="site-mobile-menu">
+        <div class="site-mobile-menu-header">
+            <div class="site-mobile-menu-close mt-3">
+                <span class="icon-close2 js-menu-toggle"></span>
+            </div>
+        </div>
+        <div class="site-mobile-menu-body">
+            <ul class="site-nav-wrap">
+                <li class="active"><a href="index.html"><span>الرئيسية</span></a></li>
+                <li class="has-children"><span class="arrow-collapse collapsed" data-toggle="collapse"
+                        data-target="#collapseItem0"></span>
+                    <a href="about.html">
+                        <i class="fas fa-angle-down"></i>
+                        <span>عن الجمعية</span>
+                    </a>
+                    <ul class="collapse" id="collapseItem0">
+                        <li><a href="#">Menu One</a></li>
+                        <li><a href="#">Menu Two</a></li>
+                        <li><a href="#">Menu Three</a></li>
+                        <li class="has-children"><span class="arrow-collapse collapsed" data-toggle="collapse"
+                                data-target="#collapseItem1"></span>
+                            <a href="#">Dropdown</a>
+                            <ul class="collapse" id="collapseItem1">
+                                <li><a href="#">Menu One</a></li>
+                                <li><a href="#">Menu Two</a></li>
+                                <li><a href="#">Menu Three</a></li>
+                                <li><a href="#">Menu Four</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="listings.html"><span>الدورات</span></a></li>
+                <li><a href="listings.html"><span>أنواع العضوية</span></a></li>
+                <li><a href="contact.html"><span>اتصل بنا</span></a></li>
+            </ul>
+        </div>
+    </div>
+    <header class="site-navbar" role="banner">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-11 col-xl-2">
+                    <h1 class="mb-0 site-logo"><a href="" class="text-white mb-0">Brand</a></h1>
+                </div>
+                <div class="col-12 col-md-10 d-none d-xl-block text-left">
+                    <nav class="site-navigation position-relative text-right" role="navigation">
+
+                        <ul class="site-menu js-clone-nav mr-auto d-none d-lg-block">
+                            <li class="active"><a href=""><span>الرئيسية</span></a></li>
+                            <li class="has-children">
+                                <a href="">
+                                    <i class="fas fa-angle-down"></i>
+                                    <span>عن الجمعية</span>
+                                </a>
+                                <ul class="dropdown arrow-top">
+                                    <li><a href="#">من نحن</a></li>
+                                    <li><a href="#">أهداف الجمعية</a></li>
+                                    <li><a href="#">مجلس الادارة</a></li>
+                                </ul>
+                            </li>
+                            <li><a href=""><span>الدورات</span></a></li>
+                            <li><a href=""><span>أنواع العضوية</span></a></li>
+                            <li><a href=""><span>اتصل بنا</span></a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a
+                        href="#" class="site-menu-toggle js-menu-toggle text-white">
+                        <i class="fas fa-bars"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="hero"
+        style="background-image: url('https://preview.colorlib.com/theme/bootstrap/website-menu-03/images/xhero_1.jpg.pagespeed.ic.IGCCr8gcb6.webp);">
+    </div>
+</div>
